@@ -40,11 +40,9 @@
     font-weight: 700;
     font-size: 66px;
     font-family: Inter, serif;
-
-    text-shadow: 2px -1px 0 #EA580B,
-    2px 2px 0 #EA580C,
-    2px 0 0 #EA580C,
-    -2px 2px 0 #EA580C
+    -webkit-text-stroke: 4px #EA580B;
+    -webkit-text-fill-color: white;
+    -webkit-animation: fill 0.5s infinite alternate;
 }
 
 .demo-button {
