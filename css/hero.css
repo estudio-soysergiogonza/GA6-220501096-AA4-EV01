@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #F9FAFB;
+    text-align: center;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.hero-text h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    font-family: Inter, serif;
+    text-align: left;
+    font-weight: 900;
+}
+
+.hero-text .highlight {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 66px;
+    font-family: Inter, serif;
+
+    text-shadow: 2px -1px 0 #EA580B,
+    2px 2px 0 #EA580C,
+    2px 0 0 #EA580C,
+    -2px 2px 0 #EA580C
+}
+
+.demo-button {
+    padding: 10px 20px;
+    border: 3px solid #F97316;
+    background-color: transparent;
+    color: #F97316;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.demo-button:hover {
+    background-color: #F97316;
+    color: white;
+}
+
+.hero-image {
+    flex: 1;
+    padding: 20px;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 10px 10px 10px 260px;
+    height: 553px;
+    object-fit: cover;
+}
+
+.hero-categories {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 10px;
+    background-color: #E5E7EB; /* Light gray background */
+    border-radius: 10px;
+}
+
+.hero-categories button {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #1F2937; /* Dark gray text */
+    cursor: pointer;
+}
+
+.hero-categories .demo-button {
+    border: 2px solid #F97316; /* Orange border */
+    color: #F97316; /* Orange text */
+}
+
+.hero-categories button:hover {
+    background-color: #F3F4F6; /* Slightly darker gray background */
+}
+
+.hero-categories .demo-button:hover {
+    background-color: #F97316; /* Orange background */
+    color: white;
+}

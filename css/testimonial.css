@@ -1,0 +1,81 @@
+.testimonial-section {
+    background-color: #E5E7EB; /* Gris claro */
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-container {
+    display: flex;
+    max-width: 1200px;
+    background-color: #D1D5DB; /* Fondo gris */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.testimonial-image {
+    flex: 1;
+    background-color: #111827; /* Fondo oscuro */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.testimonial-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.testimonial-content {
+    flex: 2;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testimonial-text {
+    font-size: 1em;
+    color: #4B5563; /* Gris oscuro */
+    margin-bottom: 20px;
+}
+
+.testimonial-author {
+    font-size: 1em;
+    color: #4B5563; /* Gris oscuro */
+    margin-bottom: 20px;
+}
+
+.author-name {
+    color: #F97316; /* Naranja */
+    font-weight: bold;
+}
+
+.author-position {
+    color: #6B7280; /* Gris */
+}
+
+.client-logos {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.client-logos img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.clients-link {
+    align-self: flex-start;
+    color: #F97316; /* Naranja */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.clients-link:hover {
+    color: #EA580C; /* Naranja oscuro */
+}

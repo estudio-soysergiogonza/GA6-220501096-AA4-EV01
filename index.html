@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bookerify</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
+</head>
+
+<body>
+<header class="header">
+    <a class="logo" href="index.html">
+        <picture>
+            <img src="./assets/images/Logo.svg" alt="Logo">
+        </picture>
+    </a>
+    <nav class="navigation">
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="#">
+                    <span>Inicio</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#">
+                    <span>Productos</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#">
+                    <span>Precios</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#">
+                    <span>Nosotros</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <button class="button">Iniciar Sesión</button>
+</header>
+<main class="hero-section">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>
+                <span class="highlight">SaaS</span>
+                <br>
+                Para gestión de reservas
+            </h1>
+            <button class="demo-button">Solicitar Demo</button>
+        </div>
+        <div class="hero-image">
+            <img src="./assets/images/reserved.jpeg" alt="Reserved">
+        </div>
+    </div>
+    <div class="hero-categories">
+        <button>Restaurantes</button>
+        <button>Hoteles</button>
+        <button>Belleza y bienestar</button>
+        <button>Barberías</button>
+        <button>Transporte</button>
+        <button>Tours</button>
+        <button class="demo-button">Solicitar Demo</button>
+    </div>
+    <section class="pricing-section">
+        <h2>Planes y Precios</h2>
+        <p>Elige el plan que mejor se adapte a las necesidades de tu negocio.</p>
+        <div class="pricing-tabs">
+            <button class="tab active" data-target="basic">Básico</button>
+            <button class="tab" data-target="pro">Pro</button>
+            <button class="tab" data-target="enterprise">Enterprise</button>
+        </div>
+        <div class="pricing-cards">
+            <div class="pricing-card active" data-plan="basic">
+                <div class="pricing-card-icon">
+                    <svg viewBox="0 0 24 24">
+                        <!-- SVG de icono de check -->
+                        <path fill="#34D399" d="M9 16.2l-4.2-4.2-1.4 1.4 5.6 5.6 12-12-1.4-1.4z"/>
+                    </svg>
+                </div>
+                <h3>$29/mes</h3>
+                <p>Ideal para pequeñas empresas que recién comienzan.</p>
+                <ul>
+                    <li>Gestión de reservas básica</li>
+                    <li>Soporte por correo electrónico</li>
+                    <li>Informes mensuales</li>
+                </ul>
+                <button class="subscribe-button">Suscríbete Ahora</button>
+            </div>
+            <div class="pricing-card" data-plan="pro">
+                <div class="pricing-card-icon">
+                    <svg viewBox="0 0 24 24">
+                        <path fill="#34D399" d="M9 16.2l-4.2-4.2-1.4 1.4 5.6 5.6 12-12-1.4-1.4z"/>
+                    </svg>
+                </div>
+                <h3>$49/mes</h3>
+                <p>Para empresas medianas con necesidades crecientes.</p>
+                <ul>
+                    <li>Gestión de reservas avanzada</li>
+                    <li>Soporte por chat</li>
+                    <li>Informes semanales</li>
+                </ul>
+                <button class="subscribe-button">Suscríbete Ahora</button>
+            </div>
+            <div class="pricing-card" data-plan="enterprise">
+                <div class="pricing-card-icon">
+                    <svg viewBox="0 0 24 24">
+                        <!-- SVG de icono de check -->
+                        <path fill="#34D399" d="M9 16.2l-4.2-4.2-1.4 1.4 5.6 5.6 12-12-1.4-1.4z"/>
+                    </svg>
+                </div>
+                <h3>$99/mes</h3>
+                <p>Para grandes empresas con necesidades complejas.</p>
+                <ul>
+                    <li>Gestión de reservas completa</li>
+                    <li>Soporte dedicado</li>
+                    <li>Informes diarios</li>
+                </ul>
+                <button class="subscribe-button">Suscríbete Ahora</button>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial-section">
+        <div class="testimonial-container">
+            <div class="testimonial-image">
+                <img src="./assets/images/bookerify.svg" alt="Tesla Logo">
+            </div>
+            <div class="testimonial-content">
+                <p class="testimonial-text">
+                    Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus
+                    tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida
+                    enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec
+                    molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales.
+                    Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim
+                    sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero
+                    condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.
+                </p>
+                <p class="testimonial-author">
+                    <span class="author-name">Tim Smith</span><br>
+                    <span class="author-position">British Dragon Boat Racing Association</span>
+                </p>
+                <div class="client-logos">
+                    <img src="./assets/images/client-logo.svg" alt="Client 1">
+                    <img src="./assets/images/client-logo.svg" alt="Client 2">
+                    <img src="./assets/images/client-logo.svg" alt="Client 3">
+                    <img src="./assets/images/client-logo.svg" alt="Client 4">
+                    <img src="./assets/images/client-logo.svg" alt="Client 5">
+                </div>
+                <a href="#" class="clients-link">Nuestros Clientes →</a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-first-section">
+                <div class="footer-logo">
+                    <img src="./assets/images/bookerify-white.svg" alt="Bookerify Logo">
+                    <p>SaaS para gestión de reservas</p>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">Precios</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-social">
+                <a href="#"><img src="./assets/images/client-logo.svg" alt="Facebook"></a>
+                <a href="#"><img src="./assets/images/client-logo.svg" alt="Instagram"></a>
+                <a href="#"><img src="./assets/images/client-logo.svg" alt="Twitter"></a>
+                <a href="#"><img src="./assets/images/client-logo.svg" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2021 Company. All rights reserved.</p>
+        </div>
+    </footer>
+</main>
+
+</body>
+</html>
